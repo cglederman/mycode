@@ -1,8 +1,10 @@
 package main
 
-import "fmt"
+import ("fmt"
+        "os")
 
-var user = "student"
+
+var user = os.Getenv("USER")
 var city = "Horsham"
 var state = "PA"
 
