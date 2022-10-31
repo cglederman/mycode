@@ -1,3 +1,3 @@
 # mycode
 Tracking my code
-Learningb GoLang
+Learning GoLang
