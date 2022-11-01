@@ -24,7 +24,7 @@ func (a Player) CanWhistle() bool {
    return a.Stage >= 5
 }
 
-func (a Player) display() {
+func (a Player) Display() {
     fmt.Println("Lives: ", a.Lives)
     fmt.Println("Stage: ", a.Stage)
     fmt.Println("Inventory: ", a.Inventory)

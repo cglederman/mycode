@@ -8,11 +8,11 @@ import (
 
 func main() {
     mario := models.Player {3, 1, []string{"mushroom"}}
-    mario.display()
+    mario.Display()
     mario.Greenmushroom()
-    mario.display()
+    mario.Display()
     mario.Pickup("mushroom")
-    mario.display()
+    mario.Display()
     fmt.Println(mario.CanWhistle())
 }
 
